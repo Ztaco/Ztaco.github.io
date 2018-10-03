@@ -1,0 +1,62 @@
+body{
+    background-image: url("tenor.gif");
+    background-color: rgb(198, 255, 180);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    font-size: 18px
+}
+h1{
+    font-family: 'Dosis';
+}
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgreen;
+}
+#nav li{
+    float: left;
+}
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+}
+#nav li a:hover{
+    background-image: url("Rainbow_frog.gif");
+    background-size: 100%;
+}
+#content{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align:center;
+    background-color: rgba(255,255,255,0.7);
+}
+table{
+    margin:auto;
+}
+#content ul, #content ol{
+    width: 25%;
+    margin:auto;
+}
+#home{
+    text-align: center;
+}
+hr {
+    background-color: black;
+}
+#frog{
+    float: left;
+    padding-top: 50px;
+    size: 30%
+}
